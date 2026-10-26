@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH Generative UI",
+    "description": "Renders inline interactive HTML tool cards from the agent and routes user interactions back to the conversation."
+  }
+}
