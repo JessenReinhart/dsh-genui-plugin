@@ -11,6 +11,7 @@ Provides:
   window.parent.postMessage({ type: 'genui:submit', payload: { ... } }, '*');
   ```
 - Presentation persistence: UI payload travels via `presentationMeta`, reconstructing faithfully across session reloads, forks, and replays.
+- Promoted turn summary: Successful results render as a `dsh-genui-result` node with `groupTree: "turn"` and `anchorSeq` after `answerSeq`/`endSeq`, so the interactive card stays uncollapsed in the final answer (the tool-call row shows a compact notice instead of a duplicate card).
 
 ## Installation
 
